@@ -1,0 +1,12 @@
+li {
+    display: flex;
+    justify-content: center;
+}
+
+li[disabled] select, li[disabled] input{
+    color: grey
+}
+
+li > button, li > input, li > select {
+    margin: 1px 3px
+}

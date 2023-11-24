@@ -1,0 +1,35 @@
+div.container {
+    margin: 0 auto;
+    text-align: center
+}
+
+div.container > h1 {
+    color: #0275d8;
+    font-weight: 800;
+    font-size: 42px
+}
+div.container button, div.container input, div.container select {
+    padding: 5px 10px;
+    font-weight: 600;
+    border: 1px solid #0275d8;
+    color: #0275d8;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+div.container button:hover {
+    color: whitesmoke;
+    background-color: #0275d8;
+}
+
+div.container input{
+    outline: 0;
+}
+
+div.container p {
+    font-size: 22px;
+    color: #0275d8
+}
+
+div.container p > span {
+    color: orangered
+}
